@@ -1,2 +1,2 @@
-# Master;
-Source code related to [master thesis](https://fenix.tecnico.ulisboa.pt/cursos/mise/dissertacao/1972678479054920)
+# MISE
+Código-fonte da dissertação ["Um caso prático de arquitectura de software para gestão de metadados no contexto da Inteligência de Negócio"][https://fenix.tecnico.ulisboa.pt/cursos/mise/dissertacao/1972678479054920]

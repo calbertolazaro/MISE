@@ -34,4 +34,7 @@ using System.Runtime.InteropServices;
 // Para registo das classes concretas
 [assembly: InternalsVisibleTo("MISE.Producer.Tests")]
 
+[assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")] 
+
+
 

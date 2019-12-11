@@ -5,7 +5,7 @@ using MISE.Producer.Core.Abstractions;
 
 namespace MISE.Producer.Infrastructure.DataSetFormat
 {
-    class DataSetStreamXmlReaderWriter : IDataSetStreamReader, IDataSetStreamWriter
+    public class DataSetStreamXmlReaderWriter : IDataSetStreamReader, IDataSetStreamWriter
     {
         private readonly IAppLogger<DataSetStreamXmlReaderWriter> _logger;
 
