@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MISE.ConsoleUI": {
+      "commandName": "Project",
+      "commandLineArgs": "shell",
+      "workingDirectory": "E:\\TFS\\IST\\MISE\\src\\MISE.Producer.UI.Console\\bin\\Debug\\netcoreapp3.0\\",
+      "environmentVariables": {
+        "MISE_PRODUCER_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

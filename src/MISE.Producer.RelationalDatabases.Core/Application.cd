@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Módulo Aplicação">
+    <Position X="0.5" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Padrão Módulo de Tabela - uma instãncia gere todos os registos de uma tabela ou view.">
+    <Position X="7.099" Y="2.343" Height="0.75" Width="3.58" />
+  </Comment>
+  <Class Name="MISE.Producer.Core.RelationalDatabases.Application.RelationalDatabasesProducerService">
+    <Position X="0.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAQAAAAAAAAAAAAAIABAAAAAACAAAACAACA=</HashCode>
+      <FileName>Application\RelationalDatabasesProducerService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tableModule" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MISE.Producer.Core.RelationalDatabases.TableModule.Catalog" Collapsed="true">
+    <Position X="7" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAIAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>TableModule\Catalog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MISE.Producer.Core.RelationalDatabases.TableModule.Table" Collapsed="true">
+    <Position X="8.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAIAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TableModule\Table.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MISE.Producer.Core.RelationalDatabases.TableModule.Column" Collapsed="true">
+    <Position X="10.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TableModule\Column.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MISE.Producer.Core.RelationalDatabases.TableModule.Server" Collapsed="true">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TableModule\Server.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.IRelationalDatabasesProducerService">
+    <Position X="0.5" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Abstractions\IRelationalDatabasesProducerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.ICatalog">
+    <Position X="6.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\ICatalog.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.IColumn">
+    <Position X="10.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\IColumn.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.ITable">
+    <Position X="8.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\ITable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.IRelationalDatabasesProducerServiceAsync">
+    <Position X="3.5" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Abstractions\IRelationalDatabasesProducerServiceAsync.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.IRelationalDatabaseTableModuleService">
+    <Position X="7.25" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAQAABAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Abstractions\IRelationalDatabaseTableModuleService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Catalog" />
+      <Property Name="Table" />
+      <Property Name="Column" />
+      <Property Name="Server" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.IServer" Collapsed="true">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\IServer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

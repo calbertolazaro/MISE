@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Producer", "Producer", "{C5A0F4BC-590C-418E-90D8-EAA59B6A9181}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Relational Databases", "Relational Databases", "{9D249F89-B665-4EF0-8A0A-3A19C4B61C9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{4DBD235B-B085-47B1-8D8F-818612495645}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8852D093-113B-48AF-BBA9-4F67346FDC9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.Producer.Extensions.DependencyInjection.RelationalDatabases", "src\MISE.Producer.Extensions.DependencyInjection.RelationalDatabases\MISE.Producer.Extensions.DependencyInjection.RelationalDatabases.csproj", "{B14E2D87-FDFF-4C66-8E3F-309DF000DD4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.Producer.Core", "src\MISE.Producer.Core\MISE.Producer.Core.csproj", "{6C1371D6-4F18-4C1F-B193-66755D222A0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.Producer.Infrastructure", "src\MISE.Producer.Infrastructure\MISE.Producer.Infrastructure.csproj", "{89A895FF-74E0-4156-BB56-C4FD773ABCDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.Producer.UI.Console", "src\MISE.Producer.UI.Console\MISE.Producer.UI.Console.csproj", "{49B19263-868C-4F66-A159-1E1BAF748C67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.Producer.Core.RelationalDatabases", "src\MISE.Producer.RelationalDatabases.Core\MISE.Producer.Core.RelationalDatabases.csproj", "{7C5322D2-E9A1-4875-8EBE-340206B29898}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.Producer.Infrastructure.RelationalDatabases.SqlServer", "src\MISE.Producer.RelationalDatabases.SqlServer\MISE.Producer.Infrastructure.RelationalDatabases.SqlServer.csproj", "{4A7A0550-6D29-4A60-9DD4-630FD3B328F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.Producer.Infrastructure.RelationalDatabases.Oracle", "src\MISE.Producer.Infrastructure.RelationalDatabases.Oracle\MISE.Producer.Infrastructure.RelationalDatabases.Oracle.csproj", "{8F11D795-2F56-484A-BED7-5EC3D27A41E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.Producer.Tests", "tests\MISE.Producer.UnitTests\MISE.Producer.Tests.csproj", "{F52CCD2D-89FA-4487-B94E-BD61D491E927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B14E2D87-FDFF-4C66-8E3F-309DF000DD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14E2D87-FDFF-4C66-8E3F-309DF000DD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14E2D87-FDFF-4C66-8E3F-309DF000DD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14E2D87-FDFF-4C66-8E3F-309DF000DD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1371D6-4F18-4C1F-B193-66755D222A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1371D6-4F18-4C1F-B193-66755D222A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1371D6-4F18-4C1F-B193-66755D222A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1371D6-4F18-4C1F-B193-66755D222A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A895FF-74E0-4156-BB56-C4FD773ABCDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A895FF-74E0-4156-BB56-C4FD773ABCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A895FF-74E0-4156-BB56-C4FD773ABCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A895FF-74E0-4156-BB56-C4FD773ABCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B19263-868C-4F66-A159-1E1BAF748C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B19263-868C-4F66-A159-1E1BAF748C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B19263-868C-4F66-A159-1E1BAF748C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B19263-868C-4F66-A159-1E1BAF748C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5322D2-E9A1-4875-8EBE-340206B29898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5322D2-E9A1-4875-8EBE-340206B29898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5322D2-E9A1-4875-8EBE-340206B29898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5322D2-E9A1-4875-8EBE-340206B29898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7A0550-6D29-4A60-9DD4-630FD3B328F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7A0550-6D29-4A60-9DD4-630FD3B328F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7A0550-6D29-4A60-9DD4-630FD3B328F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7A0550-6D29-4A60-9DD4-630FD3B328F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F11D795-2F56-484A-BED7-5EC3D27A41E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F11D795-2F56-484A-BED7-5EC3D27A41E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F11D795-2F56-484A-BED7-5EC3D27A41E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F11D795-2F56-484A-BED7-5EC3D27A41E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52CCD2D-89FA-4487-B94E-BD61D491E927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52CCD2D-89FA-4487-B94E-BD61D491E927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52CCD2D-89FA-4487-B94E-BD61D491E927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52CCD2D-89FA-4487-B94E-BD61D491E927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B14E2D87-FDFF-4C66-8E3F-309DF000DD4F} = {4DBD235B-B085-47B1-8D8F-818612495645}
+		{6C1371D6-4F18-4C1F-B193-66755D222A0D} = {C5A0F4BC-590C-418E-90D8-EAA59B6A9181}
+		{89A895FF-74E0-4156-BB56-C4FD773ABCDB} = {C5A0F4BC-590C-418E-90D8-EAA59B6A9181}
+		{49B19263-868C-4F66-A159-1E1BAF748C67} = {C5A0F4BC-590C-418E-90D8-EAA59B6A9181}
+		{7C5322D2-E9A1-4875-8EBE-340206B29898} = {9D249F89-B665-4EF0-8A0A-3A19C4B61C9D}
+		{4A7A0550-6D29-4A60-9DD4-630FD3B328F6} = {9D249F89-B665-4EF0-8A0A-3A19C4B61C9D}
+		{8F11D795-2F56-484A-BED7-5EC3D27A41E6} = {9D249F89-B665-4EF0-8A0A-3A19C4B61C9D}
+		{F52CCD2D-89FA-4487-B94E-BD61D491E927} = {8852D093-113B-48AF-BBA9-4F67346FDC9B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F953048-FF18-47A8-9903-8DBF96F20522}
+	EndGlobalSection
+EndGlobal

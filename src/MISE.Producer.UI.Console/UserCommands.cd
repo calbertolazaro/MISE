@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MISE.Producer.UI.Console.Commands.RelationalDatabaseCommand">
+    <Position X="4" Y="5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUA=</HashCode>
+      <FileName>Commands\RelationalDatabaseCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MISE.Producer.UI.Console.Commands.ProducerCommand">
+    <Position X="0.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ProducerCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MISE.Producer.UI.Console.Commands.DependencyInjectionCommand&lt;T&gt;">
+    <Position X="4.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Commands\DependencyInjectionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MISE.Producer.UI.Console.Commands.ShellCommand">
+    <Position X="8" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAJAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ShellCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SysCommand.ConsoleApp.Command" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

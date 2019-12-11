@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Padrão Table Gateway">
+    <Position X="0.5" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="As pontes de acesso aos sistemas relacionais têm que implementar este interface e a anotação.">
+    <Position X="0.688" Y="3.51" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="MISE.Producer.Core.RelationalDatabases.Attributes.RelationalDatabaseGatewayMetadataAttribute">
+    <Position X="5.25" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAACAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\RelationalDatabaseGatewayMetadataAttribute .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.ITableGateway">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\ITableGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.IRelationalDatabaseGateway">
+    <Position X="2.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\IRelationalDatabaseGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.ICatalogGateway">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Abstractions\ICatalogGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MISE.Producer.Core.RelationalDatabases.Abstractions.IColumnGateway">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Abstractions\IColumnGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RelationalDatabaseDataSet" targetNamespace="http://tempuri.org/RelationalDatabaseDataSet.xsd" xmlns:mstns="http://tempuri.org/RelationalDatabaseDataSet.xsd" xmlns="http://tempuri.org/RelationalDatabaseDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RelationalDatabaseDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="RelationalDatabaseDataSet" msprop:Generator_UserDSName="RelationalDatabaseDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Server" msprop:Generator_TableClassName="ServerDataTable" msprop:Generator_TableVarName="tableServer" msprop:Generator_TablePropName="Server" msprop:Generator_RowDeletingName="ServerRowDeleting" msprop:Generator_RowChangingName="ServerRowChanging" msprop:Generator_RowEvHandlerName="ServerRowChangeEventHandler" msprop:Generator_RowDeletedName="ServerRowDeleted" msprop:Generator_UserTableName="Server" msprop:Generator_RowChangedName="ServerRowChanged" msprop:Generator_RowEvArgName="ServerRowChangeEvent" msprop:Generator_RowClassName="ServerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ServerName" msprop:Generator_ColumnVarNameInTable="columnServerName" msprop:Generator_ColumnPropNameInRow="ServerName" msprop:Generator_ColumnPropNameInTable="ServerNameColumn" msprop:Generator_UserColumnName="ServerName" type="xs:string" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" type="xs:string" minOccurs="0" />
+              <xs:element name="Catalog" msprop:Generator_TableClassName="CatalogDataTable" msprop:Generator_TableVarName="tableCatalog" msprop:Generator_TablePropName="Catalog" msprop:Generator_RowDeletingName="CatalogRowDeleting" msprop:Generator_RowChangingName="CatalogRowChanging" msprop:Generator_RowEvHandlerName="CatalogRowChangeEventHandler" msprop:Generator_RowDeletedName="CatalogRowDeleted" msprop:Generator_UserTableName="Catalog" msprop:Generator_RowChangedName="CatalogRowChanged" msprop:Generator_RowEvArgName="CatalogRowChangeEvent" msprop:Generator_RowClassName="CatalogRow" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <msdata:Relationship name="Server_Catalog" msdata:parent="Server" msdata:child="Catalog" msdata:parentkey="ServerName" msdata:childkey="ServerName" msprop:Generator_UserChildTable="Catalog" msprop:Generator_ChildPropName="GetCatalogRows" msprop:Generator_UserRelationName="Server_Catalog" msprop:Generator_ParentPropName="ServerRow" msprop:Generator_RelationVarName="relationServer_Catalog" msprop:Generator_UserParentTable="Server" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CatalogIdentifier" msprop:Generator_ColumnVarNameInTable="columnCatalogIdentifier" msprop:Generator_ColumnPropNameInRow="CatalogIdentifier" msprop:Generator_ColumnPropNameInTable="CatalogIdentifierColumn" msprop:Generator_UserColumnName="CatalogIdentifier" type="xs:string" />
+                    <xs:element name="CatalogName" msdata:Caption="CatalogIdentifier" msprop:Generator_ColumnVarNameInTable="columnCatalogName" msprop:Generator_ColumnPropNameInRow="CatalogName" msprop:Generator_ColumnPropNameInTable="CatalogNameColumn" msprop:Generator_UserColumnName="CatalogName" type="xs:string" minOccurs="0" />
+                    <xs:element name="CatalogCreateDate" msdata:Caption="CatalogIdentifier" msprop:Generator_ColumnVarNameInTable="columnCatalogCreateDate" msprop:Generator_ColumnPropNameInRow="CatalogCreateDate" msprop:Generator_ColumnPropNameInTable="CatalogCreateDateColumn" msprop:Generator_UserColumnName="CatalogCreateDate" type="xs:dateTime" minOccurs="0" />
+                    <xs:element name="CatalogModifyDate" msprop:Generator_ColumnVarNameInTable="columnCatalogModifyDate" msprop:Generator_ColumnPropNameInRow="CatalogModifyDate" msprop:Generator_ColumnPropNameInTable="CatalogModifyDateColumn" msprop:Generator_UserColumnName="CatalogModifyDate" type="xs:dateTime" minOccurs="0" />
+                    <xs:element name="ServerName" msprop:Generator_ColumnVarNameInTable="columnServerName" msprop:Generator_ColumnPropNameInRow="ServerName" msprop:Generator_ColumnPropNameInTable="ServerNameColumn" msprop:Generator_UserColumnName="ServerName" type="xs:string" />
+                    <xs:element name="Routine" msprop:Generator_TableClassName="RoutineDataTable" msprop:Generator_TableVarName="tableRoutine" msprop:Generator_TablePropName="Routine" msprop:Generator_RowDeletingName="RoutineRowDeleting" msprop:Generator_RowChangingName="RoutineRowChanging" msprop:Generator_RowEvHandlerName="RoutineRowChangeEventHandler" msprop:Generator_RowDeletedName="RoutineRowDeleted" msprop:Generator_UserTableName="Routine" msprop:Generator_RowChangedName="RoutineRowChanged" msprop:Generator_RowEvArgName="RoutineRowChangeEvent" msprop:Generator_RowClassName="RoutineRow" minOccurs="0" maxOccurs="unbounded">
+                      <xs:annotation>
+                        <xs:appinfo>
+                          <msdata:Relationship name="Catalog_Routine" msdata:parent="Catalog" msdata:child="Routine" msdata:parentkey="CatalogIdentifier" msdata:childkey="CatalogIdentifier" msprop:Generator_UserChildTable="Routine" msprop:Generator_ChildPropName="GetRoutineRows" msprop:Generator_UserRelationName="Catalog_Routine" msprop:Generator_RelationVarName="relationCatalog_Routine" msprop:Generator_UserParentTable="Catalog" msprop:Generator_ParentPropName="CatalogRow" />
+                        </xs:appinfo>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="RoutineName" msprop:Generator_ColumnVarNameInTable="columnRoutineName" msprop:Generator_ColumnPropNameInRow="RoutineName" msprop:Generator_ColumnPropNameInTable="RoutineNameColumn" msprop:Generator_UserColumnName="RoutineName" type="xs:string" />
+                          <xs:element name="SchemaName" msprop:Generator_ColumnVarNameInTable="columnSchemaName" msprop:Generator_ColumnPropNameInRow="SchemaName" msprop:Generator_ColumnPropNameInTable="SchemaNameColumn" msprop:Generator_UserColumnName="SchemaName" type="xs:string" />
+                          <xs:element name="CatalogIdentifier" msprop:Generator_ColumnVarNameInTable="columnCatalogIdentifier" msprop:Generator_ColumnPropNameInRow="CatalogIdentifier" msprop:Generator_ColumnPropNameInTable="CatalogIdentifierColumn" msprop:Generator_UserColumnName="CatalogIdentifier" type="xs:string" />
+                          <xs:element name="RoutineCreateDate" msprop:Generator_ColumnVarNameInTable="columnRoutineCreateDate" msprop:Generator_ColumnPropNameInRow="RoutineCreateDate" msprop:Generator_ColumnPropNameInTable="RoutineCreateDateColumn" msprop:Generator_UserColumnName="RoutineCreateDate" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="RoutineModifyDate" msprop:Generator_ColumnVarNameInTable="columnRoutineModifyDate" msprop:Generator_ColumnPropNameInRow="RoutineModifyDate" msprop:Generator_ColumnPropNameInTable="RoutineModifyDateColumn" msprop:Generator_UserColumnName="RoutineModifyDate" type="xs:dateTime" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Table" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_TablePropName="Table" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_UserTableName="Table" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowClassName="TableRow" minOccurs="0" maxOccurs="unbounded">
+                      <xs:annotation>
+                        <xs:appinfo>
+                          <msdata:Relationship name="Catalog_Table" msdata:parent="Catalog" msdata:child="Table" msdata:parentkey="CatalogIdentifier" msdata:childkey="CatalogIdentifier" msprop:Generator_UserChildTable="Table" msprop:Generator_ChildPropName="GetTableRows" msprop:Generator_UserRelationName="Catalog_Table" msprop:Generator_ParentPropName="CatalogRow" msprop:Generator_RelationVarName="relationCatalog_Table" msprop:Generator_UserParentTable="Catalog" />
+                        </xs:appinfo>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="TableName" msprop:Generator_ColumnVarNameInTable="columnTableName" msprop:Generator_ColumnPropNameInRow="TableName" msprop:Generator_ColumnPropNameInTable="TableNameColumn" msprop:Generator_UserColumnName="TableName" type="xs:string" />
+                          <xs:element name="SchemaName" msprop:Generator_ColumnVarNameInTable="columnSchemaName" msprop:Generator_ColumnPropNameInRow="SchemaName" msprop:Generator_ColumnPropNameInTable="SchemaNameColumn" msprop:Generator_UserColumnName="SchemaName" type="xs:string" />
+                          <xs:element name="CatalogIdentifier" msprop:Generator_ColumnVarNameInTable="columnCatalogIdentifier" msprop:Generator_ColumnPropNameInRow="CatalogIdentifier" msprop:Generator_ColumnPropNameInTable="CatalogIdentifierColumn" msprop:Generator_UserColumnName="CatalogIdentifier" type="xs:string" />
+                          <xs:element name="CatalogName" msprop:Generator_ColumnVarNameInTable="columnCatalogName" msprop:Generator_ColumnPropNameInRow="CatalogName" msprop:Generator_ColumnPropNameInTable="CatalogNameColumn" msprop:Generator_UserColumnName="CatalogName" type="xs:string" minOccurs="0" />
+                          <xs:element name="TableCreateDate" msprop:Generator_ColumnVarNameInTable="columnTableCreateDate" msprop:Generator_ColumnPropNameInRow="TableCreateDate" msprop:Generator_ColumnPropNameInTable="TableCreateDateColumn" msprop:Generator_UserColumnName="TableCreateDate" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="TableModifyDate" msprop:Generator_ColumnVarNameInTable="columnTableModifyDate" msprop:Generator_ColumnPropNameInRow="TableModifyDate" msprop:Generator_ColumnPropNameInTable="TableModifyDateColumn" msprop:Generator_UserColumnName="TableModifyDate" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="TableType" msprop:Generator_ColumnVarNameInTable="columnTableType" msprop:Generator_ColumnPropNameInRow="TableType" msprop:Generator_ColumnPropNameInTable="TableTypeColumn" msprop:Generator_UserColumnName="TableType" type="xs:string" minOccurs="0" />
+                          <xs:element name="ServerName" msprop:Generator_ColumnVarNameInTable="columnServerName" msprop:Generator_ColumnPropNameInRow="ServerName" msprop:Generator_ColumnPropNameInTable="ServerNameColumn" msprop:Generator_UserColumnName="ServerName" type="xs:string" minOccurs="0" />
+                          <xs:element name="Column" msprop:Generator_TableClassName="ColumnDataTable" msprop:Generator_TableVarName="tableColumn" msprop:Generator_TablePropName="Column" msprop:Generator_RowDeletingName="ColumnRowDeleting" msprop:Generator_RowChangingName="ColumnRowChanging" msprop:Generator_RowEvHandlerName="ColumnRowChangeEventHandler" msprop:Generator_RowDeletedName="ColumnRowDeleted" msprop:Generator_UserTableName="Column" msprop:Generator_RowChangedName="ColumnRowChanged" msprop:Generator_RowEvArgName="ColumnRowChangeEvent" msprop:Generator_RowClassName="ColumnRow" minOccurs="0" maxOccurs="unbounded">
+                            <xs:annotation>
+                              <xs:appinfo>
+                                <msdata:Relationship name="Table_Column" msdata:parent="Table" msdata:child="Column" msdata:parentkey="TableName SchemaName CatalogIdentifier" msdata:childkey="TableName SchemaName CatalogIdentifier" msprop:Generator_UserChildTable="Column" msprop:Generator_ChildPropName="GetColumnRows" msprop:Generator_UserRelationName="Table_Column" msprop:Generator_ParentPropName="TableRowParent" msprop:Generator_RelationVarName="relationTable_Column" msprop:Generator_UserParentTable="Table" />
+                              </xs:appinfo>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="ColumnName" msdata:Caption="SERVER_NAME" msprop:Generator_ColumnVarNameInTable="columnColumnName" msprop:Generator_ColumnPropNameInRow="ColumnName" msprop:Generator_ColumnPropNameInTable="ColumnNameColumn" msprop:Generator_UserColumnName="ColumnName" type="xs:string" />
+                                <xs:element name="TableName" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnTableName" msprop:Generator_ColumnPropNameInRow="TableName" msprop:Generator_ColumnPropNameInTable="TableNameColumn" msprop:Generator_UserColumnName="TableName" type="xs:string" />
+                                <xs:element name="SchemaName" msprop:Generator_ColumnVarNameInTable="columnSchemaName" msprop:Generator_ColumnPropNameInRow="SchemaName" msprop:Generator_ColumnPropNameInTable="SchemaNameColumn" msprop:Generator_UserColumnName="SchemaName" type="xs:string" />
+                                <xs:element name="CatalogIdentifier" msprop:Generator_ColumnVarNameInTable="columnCatalogIdentifier" msprop:Generator_ColumnPropNameInRow="CatalogIdentifier" msprop:Generator_ColumnPropNameInTable="CatalogIdentifierColumn" msprop:Generator_UserColumnName="CatalogIdentifier" type="xs:string" />
+                                <xs:element name="CatalogName" msprop:Generator_ColumnVarNameInTable="columnCatalogName" msprop:Generator_ColumnPropNameInRow="CatalogName" msprop:Generator_ColumnPropNameInTable="CatalogNameColumn" msprop:Generator_UserColumnName="CatalogName" type="xs:string" minOccurs="0" />
+                                <xs:element name="OrdinalPosition" msprop:Generator_ColumnVarNameInTable="columnOrdinalPosition" msprop:Generator_ColumnPropNameInRow="OrdinalPosition" msprop:Generator_ColumnPropNameInTable="OrdinalPositionColumn" msprop:Generator_UserColumnName="OrdinalPosition" type="xs:string" minOccurs="0" />
+                                <xs:element name="DomainName" msprop:Generator_ColumnVarNameInTable="columnDomainName" msprop:Generator_ColumnPropNameInRow="DomainName" msprop:Generator_ColumnPropNameInTable="DomainNameColumn" msprop:Generator_UserColumnName="DomainName" type="xs:string" minOccurs="0" />
+                                <xs:element name="DomainSchemaName" msprop:Generator_ColumnVarNameInTable="columnDomainSchemaName" msprop:Generator_ColumnPropNameInRow="DomainSchemaName" msprop:Generator_ColumnPropNameInTable="DomainSchemaNameColumn" msprop:Generator_UserColumnName="DomainSchemaName" type="xs:string" minOccurs="0" />
+                                <xs:element name="DataType" msprop:Generator_ColumnVarNameInTable="columnDataType" msprop:Generator_ColumnPropNameInRow="DataType" msprop:Generator_ColumnPropNameInTable="DataTypeColumn" msprop:Generator_UserColumnName="DataType" type="xs:string" minOccurs="0" />
+                                <xs:element name="CharacterMaximumLength" msprop:Generator_ColumnVarNameInTable="columnCharacterMaximumLength" msprop:Generator_ColumnPropNameInRow="CharacterMaximumLength" msprop:Generator_ColumnPropNameInTable="CharacterMaximumLengthColumn" msprop:Generator_UserColumnName="CharacterMaximumLength" type="xs:string" minOccurs="0" />
+                                <xs:element name="NumericPrecision" msprop:Generator_ColumnVarNameInTable="columnNumericPrecision" msprop:Generator_ColumnPropNameInRow="NumericPrecision" msprop:Generator_ColumnPropNameInTable="NumericPrecisionColumn" msprop:Generator_UserColumnName="NumericPrecision" type="xs:string" minOccurs="0" />
+                                <xs:element name="NumericScale" msprop:Generator_ColumnVarNameInTable="columnNumericScale" msprop:Generator_ColumnPropNameInRow="NumericScale" msprop:Generator_ColumnPropNameInTable="NumericScaleColumn" msprop:Generator_UserColumnName="NumericScale" type="xs:string" minOccurs="0" />
+                                <xs:element name="ColumnDefault" msprop:Generator_ColumnVarNameInTable="columnColumnDefault" msprop:Generator_ColumnPropNameInRow="ColumnDefault" msprop:Generator_ColumnPropNameInTable="ColumnDefaultColumn" msprop:Generator_UserColumnName="ColumnDefault" type="xs:string" minOccurs="0" />
+                                <xs:element name="IsNullable" msprop:Generator_ColumnVarNameInTable="columnIsNullable" msprop:Generator_ColumnPropNameInRow="IsNullable" msprop:Generator_ColumnPropNameInTable="IsNullableColumn" msprop:Generator_UserColumnName="IsNullable" type="xs:string" minOccurs="0" />
+                                <xs:element name="IsPrimaryKey" msprop:Generator_ColumnVarNameInTable="columnIsPrimaryKey" msprop:Generator_ColumnPropNameInRow="IsPrimaryKey" msprop:Generator_ColumnPropNameInTable="IsPrimaryKeyColumn" msprop:Generator_UserColumnName="IsPrimaryKey" type="xs:string" minOccurs="0" />
+                                <xs:element name="IsForeignKey" msprop:Generator_ColumnVarNameInTable="columnIsForeignKey" msprop:Generator_ColumnPropNameInRow="IsForeignKey" msprop:Generator_ColumnPropNameInTable="IsForeignKeyColumn" msprop:Generator_UserColumnName="IsForeignKey" type="xs:string" minOccurs="0" />
+                                <xs:element name="ServerName" msprop:Generator_ColumnVarNameInTable="columnServerName" msprop:Generator_ColumnPropNameInRow="ServerName" msprop:Generator_ColumnPropNameInTable="ServerNameColumn" msprop:Generator_UserColumnName="ServerName" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Domain" msprop:Generator_TableClassName="DomainDataTable" msprop:Generator_TableVarName="tableDomain" msprop:Generator_TablePropName="Domain" msprop:Generator_RowDeletingName="DomainRowDeleting" msprop:Generator_RowChangingName="DomainRowChanging" msprop:Generator_RowEvHandlerName="DomainRowChangeEventHandler" msprop:Generator_RowDeletedName="DomainRowDeleted" msprop:Generator_UserTableName="Domain" msprop:Generator_RowChangedName="DomainRowChanged" msprop:Generator_RowEvArgName="DomainRowChangeEvent" msprop:Generator_RowClassName="DomainRow" minOccurs="0" maxOccurs="unbounded">
+                      <xs:annotation>
+                        <xs:appinfo>
+                          <msdata:Relationship name="Catalog_Domain" msdata:parent="Catalog" msdata:child="Domain" msdata:parentkey="CatalogIdentifier" msdata:childkey="CatalogIdentifier" msprop:Generator_UserChildTable="Domain" msprop:Generator_ChildPropName="GetDomainRows" msprop:Generator_UserRelationName="Catalog_Domain" msprop:Generator_RelationVarName="relationCatalog_Domain" msprop:Generator_UserParentTable="Catalog" msprop:Generator_ParentPropName="CatalogRow" />
+                        </xs:appinfo>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="DomainName" msprop:Generator_ColumnVarNameInTable="columnDomainName" msprop:Generator_ColumnPropNameInRow="DomainName" msprop:Generator_ColumnPropNameInTable="DomainNameColumn" msprop:Generator_UserColumnName="DomainName" type="xs:string" />
+                          <xs:element name="SchemaName" msprop:Generator_ColumnVarNameInTable="columnSchemaName" msprop:Generator_ColumnPropNameInRow="SchemaName" msprop:Generator_ColumnPropNameInTable="SchemaNameColumn" msprop:Generator_UserColumnName="SchemaName" type="xs:string" />
+                          <xs:element name="CatalogIdentifier" msprop:Generator_ColumnVarNameInTable="columnCatalogIdentifier" msprop:Generator_ColumnPropNameInRow="CatalogIdentifier" msprop:Generator_ColumnPropNameInTable="CatalogIdentifierColumn" msprop:Generator_UserColumnName="CatalogIdentifier" type="xs:string" />
+                          <xs:element name="DataType" msprop:Generator_ColumnVarNameInTable="columnDataType" msprop:Generator_ColumnPropNameInRow="DataType" msprop:Generator_ColumnPropNameInTable="DataTypeColumn" msprop:Generator_UserColumnName="DataType" type="xs:string" minOccurs="0" />
+                          <xs:element name="NumericPrecision" msprop:Generator_ColumnVarNameInTable="columnNumericPrecision" msprop:Generator_ColumnPropNameInRow="NumericPrecision" msprop:Generator_ColumnPropNameInTable="NumericPrecisionColumn" msprop:Generator_UserColumnName="NumericPrecision" type="xs:string" minOccurs="0" />
+                          <xs:element name="NumericScale" msprop:Generator_ColumnVarNameInTable="columnNumericScale" msprop:Generator_ColumnPropNameInRow="NumericScale" msprop:Generator_ColumnPropNameInTable="NumericScaleColumn" msprop:Generator_UserColumnName="NumericScale" type="xs:string" minOccurs="0" />
+                          <xs:element name="CatalogName" msprop:Generator_ColumnVarNameInTable="columnCatalogName" msprop:Generator_ColumnPropNameInRow="CatalogName" msprop:Generator_ColumnPropNameInTable="CatalogNameColumn" msprop:Generator_UserColumnName="CatalogName" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="RoutinePK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Routine" />
+      <xs:field xpath="mstns:RoutineName" />
+      <xs:field xpath="mstns:SchemaName" />
+      <xs:field xpath="mstns:CatalogIdentifier" />
+    </xs:unique>
+    <xs:unique name="ColumnKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Column" />
+      <xs:field xpath="mstns:ColumnName" />
+      <xs:field xpath="mstns:TableName" />
+      <xs:field xpath="mstns:SchemaName" />
+      <xs:field xpath="mstns:CatalogIdentifier" />
+    </xs:unique>
+    <xs:unique name="Table_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table" />
+      <xs:field xpath="mstns:CatalogIdentifier" />
+      <xs:field xpath="mstns:SchemaName" />
+      <xs:field xpath="mstns:TableName" />
+    </xs:unique>
+    <xs:unique name="DomainPK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Domain" />
+      <xs:field xpath="mstns:DomainName" />
+      <xs:field xpath="mstns:SchemaName" />
+      <xs:field xpath="mstns:CatalogIdentifier" />
+    </xs:unique>
+    <xs:unique name="CatalogPK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Catalog" />
+      <xs:field xpath="mstns:CatalogIdentifier" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Server" />
+      <xs:field xpath="mstns:ServerName" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Domain_Column" msdata:parent="Domain" msdata:child="Column" msdata:parentkey="DomainName SchemaName CatalogIdentifier" msdata:childkey="DomainName SchemaName CatalogIdentifier" msprop:Generator_UserChildTable="Column" msprop:Generator_ChildPropName="GetColumnRows" msprop:Generator_UserRelationName="Domain_Column" msprop:Generator_RelationVarName="relationDomain_Column" msprop:Generator_UserParentTable="Domain" msprop:Generator_ParentPropName="DomainRowParent" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
