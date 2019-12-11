@@ -1,2 +1,2 @@
 # MISE
-Código-fonte da dissertação ["Um caso prático de arquitectura de software para gestão de metadados no contexto da Inteligência de Negócio"][https://fenix.tecnico.ulisboa.pt/cursos/mise/dissertacao/1972678479054920]
+CÃ³digo-fonte da dissertaÃ§Ã£o ["Um caso prÃ¡tico de arquitectura de software para gestÃ£o de metadados no contexto da InteligÃªncia de NegÃ³cio](https://fenix.tecnico.ulisboa.pt/cursos/mise/dissertacao/1972678479054920)
