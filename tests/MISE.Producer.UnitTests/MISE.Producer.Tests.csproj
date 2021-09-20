@@ -17,9 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MISE.Producer.Core\MISE.Producer.Core.csproj" />
-    <ProjectReference Include="..\..\src\MISE.Producer.Infrastructure\MISE.Producer.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\src\MISE.Producer.RelationalDatabases.SqlServer\MISE.Producer.Infrastructure.RelationalDatabases.SqlServer.csproj" />
+    <ProjectReference Include="..\..\src\MISE.Producer\MISE.Producer.Core\MISE.Producer.Core.csproj" />
+    <ProjectReference Include="..\..\src\MISE.Producer\MISE.Producer.Infrastructure\MISE.Producer.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\MISE.Producer\MISE.Producer.RelationalDatabases.SqlServer\MISE.Producer.Infrastructure.RelationalDatabases.SqlServer.csproj" />
   </ItemGroup>
 
 </Project>
