@@ -53,8 +53,8 @@ namespace MISE.Producer.UI.Console
                 .UseSerilog((context, loggerConfiguration) =>
                 {
                     loggerConfiguration
-                        .MinimumLevel.Information()
-                        .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+                        //.MinimumLevel.Information()
+                        //.MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
                         .ReadFrom.Configuration(context.Configuration);
                     //.Enrich.FromLogContext();
                 })
