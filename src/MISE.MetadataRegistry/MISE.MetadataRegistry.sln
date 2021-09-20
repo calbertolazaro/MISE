@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.MetadataRegistry.Core", "MISE.MetadataRegistry\MISE.MetadataRegistry.Core.csproj", "{3CB55B92-9E26-4549-BF5F-5C8344DA3AC0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.MetadataRegistry.Infrastructure", "MISE.MetadataRegistry.Infrastructure\MISE.MetadataRegistry.Infrastructure.csproj", "{A38246C1-35C3-46C7-9AFC-9297D17CA604}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2877414B-8C81-4270-AC38-3DE551E485A6}"
@@ -21,16 +19,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISE.SharedKernel", "..\MIS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.MetadataRegistry.UnitTests", "..\..\tests\MISE.MetadataRegistry.UnitTests\MISE.MetadataRegistry.UnitTests.csproj", "{09E2344F-3534-4AD4-80BC-CCDBEAF9319E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.MetadataRegistry.Core", "MISE.MetadataRegistry.Core\MISE.MetadataRegistry.Core.csproj", "{2F42E92D-562C-44B0-99E6-1089D48E4244}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3CB55B92-9E26-4549-BF5F-5C8344DA3AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3CB55B92-9E26-4549-BF5F-5C8344DA3AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3CB55B92-9E26-4549-BF5F-5C8344DA3AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3CB55B92-9E26-4549-BF5F-5C8344DA3AC0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A38246C1-35C3-46C7-9AFC-9297D17CA604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A38246C1-35C3-46C7-9AFC-9297D17CA604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A38246C1-35C3-46C7-9AFC-9297D17CA604}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,17 +47,21 @@ Global
 		{09E2344F-3534-4AD4-80BC-CCDBEAF9319E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09E2344F-3534-4AD4-80BC-CCDBEAF9319E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09E2344F-3534-4AD4-80BC-CCDBEAF9319E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F42E92D-562C-44B0-99E6-1089D48E4244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F42E92D-562C-44B0-99E6-1089D48E4244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F42E92D-562C-44B0-99E6-1089D48E4244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F42E92D-562C-44B0-99E6-1089D48E4244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3CB55B92-9E26-4549-BF5F-5C8344DA3AC0} = {75A81D6D-76B1-46C3-B67E-2D5FA18A3546}
 		{A38246C1-35C3-46C7-9AFC-9297D17CA604} = {75A81D6D-76B1-46C3-B67E-2D5FA18A3546}
 		{721D244D-6FBB-44EA-9EDF-A4A6EDB2C6B2} = {75A81D6D-76B1-46C3-B67E-2D5FA18A3546}
 		{1C254D3B-508B-4F20-8A0D-FB52A811056C} = {75A81D6D-76B1-46C3-B67E-2D5FA18A3546}
 		{924CE2EA-79A1-4DFE-825D-F237837C33DC} = {75A81D6D-76B1-46C3-B67E-2D5FA18A3546}
 		{09E2344F-3534-4AD4-80BC-CCDBEAF9319E} = {7960AA2E-2DAE-4E52-8D09-86088E1BB3F6}
+		{2F42E92D-562C-44B0-99E6-1089D48E4244} = {75A81D6D-76B1-46C3-B67E-2D5FA18A3546}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A83B6828-1CBE-47D4-9B7C-4886055D0348}
