@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MISE.MetadataRegistry.UI.Console.Extensions;
+using MISE.MetadataRegistry.CommandLine.Extensions;
 using MISE.MetadataRegistry.Infrastructure;
 using MISE.SharedKernel.Extensions.DependencyInjection;
 // O padrão para linha de comando é: DI + Serilog + Settings
