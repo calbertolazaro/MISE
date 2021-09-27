@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ApplicationCore\" />
+    <ProjectReference Include="..\..\src\MISE.MetadataRegistry\MISE.MetadataRegistry.Core\MISE.MetadataRegistry.Core.csproj" />
   </ItemGroup>
 
 </Project>
