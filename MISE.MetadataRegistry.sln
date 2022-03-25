@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2877414B-8C81-4270-AC38-3DE551E485A6}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.MetadataRegistry.Migrations", "src\MISE.MetadataRegistry\MISE.MetadataRegistry.Migrations\MISE.MetadataRegistry.Migrations.csproj", "{CE57E4BA-4EE1-4793-9252-9C33FEA711C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.MetadataRegistry.UnitTests", "tests\MISE.MetadataRegistry.UnitTests\MISE.MetadataRegistry.UnitTests.csproj", "{EA6DC432-5562-4F2F-89AC-BF3DD0654BAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISE.SharedKernel", "src\MISE.SharedKernel\MISE.SharedKernel.csproj", "{23F912D1-64C0-42AE-9677-B3E66F90DF08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{EA6DC432-5562-4F2F-89AC-BF3DD0654BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA6DC432-5562-4F2F-89AC-BF3DD0654BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA6DC432-5562-4F2F-89AC-BF3DD0654BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F912D1-64C0-42AE-9677-B3E66F90DF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F912D1-64C0-42AE-9677-B3E66F90DF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F912D1-64C0-42AE-9677-B3E66F90DF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F912D1-64C0-42AE-9677-B3E66F90DF08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{49C5AC67-D5A3-4168-9FF9-AACAF238E872} = {75A81D6D-76B1-46C3-B67E-2D5FA18A3546}
 		{61C78D3D-CEFF-4206-81CD-9727F91850F8} = {75A81D6D-76B1-46C3-B67E-2D5FA18A3546}
 		{CE57E4BA-4EE1-4793-9252-9C33FEA711C4} = {75A81D6D-76B1-46C3-B67E-2D5FA18A3546}
+		{EA6DC432-5562-4F2F-89AC-BF3DD0654BAB} = {7960AA2E-2DAE-4E52-8D09-86088E1BB3F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A83B6828-1CBE-47D4-9B7C-4886055D0348}

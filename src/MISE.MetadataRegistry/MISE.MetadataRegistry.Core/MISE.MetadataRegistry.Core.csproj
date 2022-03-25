@@ -1,14 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>MISE.MetadataRegistry.Core</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Extensions\**" />
+    <EmbeddedResource Remove="Extensions\**" />
+    <None Remove="Extensions\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="DataCatalogAggregate\Handlers\" />
     <Folder Include="DataCatalogAggregate\Specifications\" />
-    <Folder Include="Extensions\" />
   </ItemGroup>
 
   <ItemGroup>
